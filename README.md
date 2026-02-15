@@ -28,10 +28,12 @@ npm run dev
 
 ## Features
 
-- Upload PDF resumes
-- AI-powered analysis using Gemini
-- Simple, clean interface with Tailwind CSS
-- One API route for processing
+- 📤 Upload PDF resumes
+- 🤖 AI-powered analysis using Gemini 2.5 Flash
+- 🎨 Professional dark mode UI with gradient effects
+- ⏳ Animated 6-step loading progress
+- ✨ Glass morphism design with smooth animations
+- 📊 Comprehensive resume analysis with ratings
 
 ## Tech Stack
 

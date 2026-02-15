@@ -29,7 +29,7 @@ export async function POST(request) {
     }
 
     // Analyze with Gemini
-    const model = genAI.getGenerativeModel({ model: "gemini-pro" });
+    const model = genAI.getGenerativeModel({ model: "gemini-2.5-flash" });
 
     const prompt = `Analyze this resume and provide:
 1. Overall assessment
