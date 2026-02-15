@@ -2,20 +2,20 @@
 
 import { useState, useEffect } from "react";
 
+const steps = [
+  "Uploading resume...",
+  "Extracting text from PDF...",
+  "Analyzing content...",
+  "Evaluating skills...",
+  "Generating recommendations...",
+  "Finalizing analysis...",
+];
+
 export default function Home() {
   const [file, setFile] = useState(null);
   const [analysis, setAnalysis] = useState("");
   const [loading, setLoading] = useState(false);
   const [currentStep, setCurrentStep] = useState(0);
-
-  const steps = [
-    "Uploading resume...",
-    "Extracting text from PDF...",
-    "Analyzing content...",
-    "Evaluating skills...",
-    "Generating recommendations...",
-    "Finalizing analysis...",
-  ];
 
   useEffect(() => {
     if (loading) {
